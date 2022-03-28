@@ -1,0 +1,284 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100&display=swap');
+
+.img-icon{
+    padding-top: 2rem;
+}
+.content {
+    width: 100%;
+    height: 900px;
+    background-color: hsl(185, 41%, 84%);
+    font-family: 'Kumbh Sans', sans-serif !important;
+    
+    font-weight: 800 !important;
+    font-size: 20px !important;
+    color: hsl(186, 14%, 43%);
+}
+.logo{
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.cauculator{
+    width: 60%;
+    height: 400px;
+    background-color: hsl(189, 41%, 97%);
+    margin: 0 auto;
+    margin-top: 3rem;
+    border-radius: 25px;
+    padding: 3rem;
+}
+
+.cauculator  .icon-dolar {
+    position: absolute;
+    bottom: 80%;
+    left: 5%;
+}
+
+
+.input-bill{
+    border: 2.5px solid hsl(172, 67%, 45%);
+    border-radius: 5px;
+    text-align: right;
+    color:hsl(183, 100%, 15%) ;
+    font-weight: 900;
+    cursor: pointer;
+    font-size: 24px;
+    position: relative;
+}
+
+.input-bill:focus{
+    border:2.5px solid hsl(172, 67%, 45%) !important ;
+    box-shadow: none;
+    outline: 5px auto hsl(183, 100%, 15%);
+}
+
+.content-left{
+    width: 50%;
+    float: left;
+    height: 320px;
+    padding-right: 2rem;
+    position: relative;
+    
+}
+
+.content-right{
+    width: 45%;
+    float: right;
+    background-color: hsl(183, 100%, 15%);
+    height: 330px;
+    border-radius: 15px;
+    padding: 2rem;
+    font-size: 15px;
+}
+
+.btn-reset{
+    background-color:  hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+    font-weight: 700;
+    margin-top: 5.5rem;
+}
+
+.list-btn{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.btn-item{
+    width: 31%;
+    border-radius: 5px;
+    background-color:hsl(183, 100%, 15%) ;
+    border: none;
+    padding: 7px 0;
+    color: white;
+    font-weight: bolder;
+    margin: 0.1rem 0
+}
+
+.btn-item:focus{
+    outline: 5px auto hsl(172, 67%, 45%);
+}
+
+.btn-item-click {
+    width: 31%;
+    border-radius: 5px;
+    background-color:hsl(172, 67%, 45%) ;
+    border: none;
+    padding: 5px 0;
+    color: hsl(183, 100%, 15%);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.btn-item-click:focus {
+    outline: none;
+}
+
+.input-tip{
+    border: 2.5px solid hsl(172, 67%, 45%);
+    border-radius: 5px;
+    text-align: right;
+    color: hsl(183, 100%, 15%);
+    font-weight: 900;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.input-tip:focus {
+    outline: 5px auto hsl(183, 100%, 15%);
+}
+
+.input-people{
+    border: 2px solid orange;
+    text-align: right;
+    color:hsl(183, 100%, 15%);
+    font-weight: 900;
+    cursor: pointer;
+    font-size: 24px;
+    
+}
+
+.input-people:focus{
+    border: 2px solid orange;
+    outline: none !important;
+    box-shadow: none;
+   
+}
+
+.icon-people{
+    position: absolute;
+    bottom: 3%;
+    left: 3%;
+
+}
+
+@media screen and (max-width: 576px) {
+    .content-left{
+        width: 100%;
+    }
+    .content-right{
+        width: 100%;
+        margin-top: 1rem;
+        height: 250px;
+    }
+
+    .btn-reset{
+        margin-top: 1rem !important;
+    }
+
+    .cauculator{
+        height: 700px;
+        padding: 2rem;
+        width: 80%;
+    }
+
+
+
+    
+
+
+}
+
+@media screen and (max-width: 375px) {
+    .content-left{
+        width: 100%;
+        padding: 0;
+    }
+    .content-right{
+        width: 100%;
+        margin-top: 7rem;
+        height: 270px;
+    }
+
+    .cauculator{
+        width: 100% !important;
+        height: 800px;
+        padding: 2rem;
+    }
+
+    .img-icon{
+        padding-top: 0;
+    }
+
+    .input-bill{
+        font-size: 17px;
+        margin-top: 7px;
+    }
+    .input-people{
+        font-size: 17px;
+    }
+
+    .input-tip{
+        font-size: 17px;
+        padding: 8px 0;
+        width: 45% !important;
+        border: 2px solid #8080800d;
+        background-color: #8080800d;
+        margin-top: 8px;
+    }
+
+    .input-tip:focus {
+        outline: none !important;
+    }
+
+    .btn-item {
+        width: 45%;
+        margin-top: 10px;
+    }
+
+    .btn-reset {
+        margin-top: 1.5rem;
+    }
+
+    .input-people{
+        border: 2px solid #8080800d;
+        background-color: #8080800d;
+        text-align: right;
+        color:hsl(183, 100%, 15%);
+        font-weight: 900;
+        cursor: pointer;
+        font-size: 24px;
+        
+    }
+
+    .btn-item-click {
+        width: 45%;
+        margin-top: 7px;
+        padding: 7px 0;
+    }
+
+    .valiPeo{
+        display: none;
+    }
+    .icon-people {
+        position: absolute;
+        bottom: -18%;
+        left: 7%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .valiPeo{
+        display: none;
+    }
+
+    .content-left{
+        padding: 0;
+    }
+
+    .cauculator{
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .btn-reset {
+        margin-top: 2rem;
+    }
+
+    .cauculator{
+        width: 80%;
+    }
+}

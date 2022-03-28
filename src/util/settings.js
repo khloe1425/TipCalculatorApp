@@ -1,0 +1,6 @@
+
+export const ONCLICK = 'ONCLICK'
+export const ONCHANGE = 'ONCHANGE'
+export const ONCHANGEBILL = 'ONCHANGEBILL';
+export const ONCHANGETIP = 'ONCHANGETIP';
+export const ONCHANGEPEOPLE = 'ONCHANGEPEOPLE';
